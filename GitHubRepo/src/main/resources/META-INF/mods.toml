@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="liopleurodonmod"
+version="1.0.0"
+displayName="Custom Liopleurodon"
+credits="Based on personal model"
+authors="You"
+
+[[dependencies.liopleurodonmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    side="BOTH"
+
+[[dependencies.liopleurodonmod]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.2,)"
+    side="BOTH"
